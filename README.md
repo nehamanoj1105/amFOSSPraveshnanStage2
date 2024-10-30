@@ -1,4 +1,4 @@
-# Summary
+# Overview
 For this project, I developed a web scraper using Go and the Colly library to extract the top 10 Google search results for a given keyword.
 Initially I setup the Colly library to send requests to Google's search result page.
 Colly was used for parsing the html and the relevant elements like the title and url were extracted.
