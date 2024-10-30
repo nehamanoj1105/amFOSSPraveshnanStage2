@@ -10,7 +10,7 @@ import (
 )
 
 func main() {
-    keyword := "amFoss club"
+    keyword := "amFoss club" //change it to what you want to search for.
     searchURL := "https://www.google.com/search?q=" + url.QueryEscape(keyword)
 
     c := colly.NewCollector(
